@@ -3,10 +3,10 @@ resource "aws_instance" "dev" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "ec2-dev-1"
+    Name = "ec2-dev-33"
   }
 }
 
-resource "aws_vpc" "devvpc" {
+resource "aws_vpc" "dev-new-vpc" {
   cidr_block = "10.0.0.0/16"
 }
