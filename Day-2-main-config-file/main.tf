@@ -4,6 +4,6 @@ resource "aws_instance" "dev" {
     tags = {
       Name = "ec2dev"
 
-}
+   }
 
 }
